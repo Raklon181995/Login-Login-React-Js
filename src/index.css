@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+p {
+  color: rgb(187, 60, 60);
+}
+.font-25{
+  font-size: 25px;
+  font-weight: 700;
+}
+.font-20{
+  font-size: 20px;
+  font-weight: 600;
+}
+.font-14{
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.font-12{
+  font-size: 12px;
+  font-weight: 400;
+}
+.card{
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: none;
+}
+.loginForm{
+  background: #156E82;
+  width: 100%;
+  justify-self: right;
+}
+.font-white{
+  color: white;
+}
+body {
+  min-height: 100vh;
+  background: linear-gradient(90deg, #e7f4f7 0%, #156E82 100%);
+}
+.background-img{
+  height: 100% !important;
+  width: 100% !important;
+  /* overflow-x: hidden !important; */
+}
+.form__container form {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding: 20px;
+}
+.form__heading {
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 10px;
+}
+.form__button {
+  width: 100%;
+  background-color: black;
+  color: white;
+  padding: 5px;
+}
+.form__button:hover {
+  background-color: rgba(0, 0, 0, 0.795);
+}
+.form__submit-btn {
+  margin-top: 20px;
+  width: 100%;
+  color: white;
+  background-color: black;
+  padding: 10px 0px;
+}
+.form__submit-btn:hover {
+  opacity: 0.9;
+}
+.content {
+  min-height: 73vh !important;
+}
+@media only screen and (min-width: 960px) {
+  .background-img{
+    height: 668px !important;
+    width: 100% !important;
+    overflow-x: hidden !important;
+  }
+  .card{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /* box-shadow: 1px 2px 5px 5px #d1d1d1; */
+  }
+  .loginForm{
+    margin-top: 70px !important;
+    background: #156E82;
+    width: 60%;
+    justify-self: right;
+  }
+
+}
